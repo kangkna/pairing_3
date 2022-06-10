@@ -6,4 +6,13 @@ def above_30 (input)
     end
   end
 end
-above_30 (array)  
+above_30 (array)
+
+def under_60 (input)
+  input.each do |input|
+    if input<60
+      puts "#{input}"
+    end
+  end
+end
+under_60 (array)
